@@ -1,0 +1,23 @@
+.tasks {
+  list-style: none;
+  max-height: 210px;
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-accent) #ffffff;
+}
+
+.tasks::-webkit-scrollbar {
+  width: 4px;
+}
+
+.tasks::-webkit-scrollbar-track {
+  background: var(--c-background);
+}
+
+.tasks::-webkit-scrollbar-thumb {
+  background-color: var(--c-accent);
+  border-radius: 1rem;
+}

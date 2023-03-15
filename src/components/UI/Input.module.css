@@ -1,0 +1,21 @@
+.input {
+  margin-top: 30px;
+  margin-bottom: -15px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 15px 30px;
+  background-color: var(--c-grey1);
+  color: var(--c-primary);
+  border: none;
+  border-radius: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: background-color 0.2s linear, letter-spacing 0.3s ease;
+  outline-color: var(--c-accent);
+}
+
+.input::placeholder {
+  color: var(--c-grey2);
+}

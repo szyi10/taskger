@@ -1,0 +1,24 @@
+.card {
+  background-color: var(--c-background);
+  width: 500px;
+  padding: 70px 30px;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (width <= 520px) {
+  .card {
+    width: 320px;
+  }
+}
+
+@media screen and (width <= 320px) {
+  .card {
+    width: 300px;
+  }
+}
