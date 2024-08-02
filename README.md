@@ -1,58 +1,39 @@
+# Taskger
 
-# Tasks
+## Overview
 
-This project is a simple Todo List application built using React. It allows users to keep track of their tasks and manage their to-do list in a user-friendly and efficient manner. The tasks added by the user are stored in local storage, which ensures that the data is persistent even after closing the application. Overall, this project provides a convenient solution for keeping track of tasks and staying organized.
-
-
-## Demo
-
-[Demo](https://tasks-e79a8.web.app/)
-
-
-## Table of Content
-- [Screenshots](#screenshots)
-- [Technologies](#Technologies)
-- [Setup](#Setup)
-- [License](#License)
-
-
-## Screenshots
+This repository contains the code for the Taskger - simple todo list app.
 
 ![App Screenshot](https://images2.imgbox.com/98/45/0EZnoRNz_o.png)
 
-
 ## Technologies
 
-React, CSS
+- React, Tailwind CSS
 
+## Installation
 
-## Setup
-
-Clone the project
-
-```bash
-  git clone https://github.com/szyi10/tasks/
-```
-
-Go to the project directory
+1. Clone the repository
 
 ```bash
-  cd tasks
+git clone https://github.com/szyi10/taskger.git
+cd taskger
 ```
 
-Install dependencies
+2. Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
-Start the server
+3. Start the development server
 
 ```bash
-  npm run dev
+npm run dev
 ```
 
+4. Open the application in your browser. Go to `http://localhost:5173/`.
 
-## License
+## Scripts
 
-[MIT](https://choosealicense.com/licenses/mit/)
+- `npm run dev`: Start the development server
+- `npm run build`: Build the application for production
